@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Books</title>
+
+<link rel="stylesheet" href="css/books.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>📚 Book Management</h1>
+
+<div class="form">
+
+<input type="text" id="bookName" placeholder="Book Name">
+
+<input type="text" id="author" placeholder="Author">
+
+<input type="text" id="category" placeholder="Category">
+
+<input type="number" id="quantity" placeholder="Quantity">
+
+<button onclick="addBook()">Add Book</button>
+
+</div>
+
+<input
+type="text"
+id="search"
+placeholder="🔍 Search Book"
+onkeyup="searchBook()">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>ID</th>
+
+<th>Book</th>
+
+<th>Author</th>
+
+<th>Category</th>
+
+<th>Quantity</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody id="bookTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="js/books.js"></script>
+
+</body>
+</html>
