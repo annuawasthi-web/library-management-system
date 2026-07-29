@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Issue Book</title>
+<link rel="stylesheet" href="css/issue.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>📖 Issue Book</h1>
+
+<div class="form">
+
+<select id="student"></select>
+
+<select id="book"></select>
+
+<input type="date" id="issueDate">
+
+<button onclick="issueBook()">Issue Book</button>
+
+</div>
+
+<table>
+
+<thead>
+
+<tr>
+<th>ID</th>
+<th>Student</th>
+<th>Book</th>
+<th>Issue Date</th>
+<th>Status</th>
+</tr>
+
+</thead>
+
+<tbody id="issueTable"></tbody>
+
+</table>
+
+</div>
+
+<script src="js/issue.js"></script>
+
+</body>
+</html>
